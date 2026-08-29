@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <rect width="1200" height="520" fill="#f7fafc"/>
+  <style>text{font-family:Arial,sans-serif;fill:#17202a} .title{font-size:30px;font-weight:700} .head{font-size:24px;font-weight:700} .body{font-size:20px} .box{fill:#fff;stroke:#17202a;stroke-width:3;rx:12}</style>
+  <text x="600" y="55" text-anchor="middle" class="title">Palo Alto ISP Topology</text>
+  <rect x="55" y="180" width="260" height="180" class="box"/>
+  <rect x="420" y="135" width="360" height="270" class="box"/>
+  <rect x="885" y="180" width="260" height="180" class="box"/>
+  <text x="185" y="225" text-anchor="middle" class="head">PC1</text>
+  <text x="185" y="270" text-anchor="middle" class="body">192.168.10.10/24</text>
+  <text x="185" y="310" text-anchor="middle" class="body">GW 192.168.10.1</text>
+  <text x="600" y="190" text-anchor="middle" class="head">Palo Alto Firewall</text>
+  <text x="600" y="245" text-anchor="middle" class="body">Trust: 192.168.10.1/24</text>
+  <text x="600" y="280" text-anchor="middle" class="body">Untrust: 100.1.1.2/24</text>
+  <text x="600" y="330" text-anchor="middle" class="body">0.0.0.0/0 -&gt; 100.1.1.1</text>
+  <text x="1015" y="225" text-anchor="middle" class="head">ISP</text>
+  <text x="1015" y="280" text-anchor="middle" class="body">100.1.1.1/24</text>
+  <text x="1015" y="320" text-anchor="middle" class="body">Next hop</text>
+  <path d="M315 270H420M780 270H885" stroke="#1769aa" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="367" y="245" text-anchor="middle" class="body">Trust</text>
+  <text x="832" y="245" text-anchor="middle" class="body">Untrust</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L10,3 L0,6 Z" fill="#1769aa"/></marker></defs>
+</svg>

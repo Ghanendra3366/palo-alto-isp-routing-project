@@ -1,0 +1,11 @@
+# Palo Alto Verification Commands
+
+show routing route
+show routing route type static
+show routing route destination 0.0.0.0/0
+
+ping source 100.1.1.2 host 100.1.1.1
+
+test routing fib-lookup virtual-router default ip 8.8.8.8
+
+show session all filter source 192.168.10.10

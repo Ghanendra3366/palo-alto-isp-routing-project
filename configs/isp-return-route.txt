@@ -1,0 +1,9 @@
+# ISP return route requirement
+# Configure the equivalent route on the upstream ISP device.
+
+Destination: 192.168.10.0/24
+Next hop:   100.1.1.2
+
+# Purpose:
+# Return traffic for the Trust subnet 192.168.10.0/24
+# through the Palo Alto Untrust interface.
